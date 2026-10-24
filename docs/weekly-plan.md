@@ -4,14 +4,14 @@
 
 | 周次 | 本地分支 | 实践目标与验收 |
 | --- | --- | --- |
-| 1 | week-01/agent-runtime | 评估开源 Agent 内核的许可证、嵌入 API、DeepSeek、事件、会话及权限扩展；选定一个并完成 CLI 最小工具调用 |
-| 2 | week-02/desktop-shell | 搭建 Electron + React，选择工作区并通过 IPC 展示模型回复与工具事件；renderer 不持有密钥 |
-| 3 | week-03/streaming-tasks | 接入流式事件、任务状态机、取消与错误处理；同一会话请求排队 |
-| 4 | week-04/sessions-memory | SQLite 会话恢复、上下文预算与隔离测试；保持工具调用和结果完整 |
-| 5 | week-05/permissions-diff | 工具审批、文件 diff、冲突检测；拒绝审批不执行，明确 Bash 非沙箱的边界 |
-| 6 | week-06/skills-evals | Skills 按需加载与固定任务集，记录成功率、耗时、调用次数与可用的 token 指标 |
-| 7 | week-07/packaging | 安装包、配置引导、日志脱敏与集成测试；在新环境验证启动 |
-| 8 | week-08/interview-demo | 5 分钟演示、架构说明、技术取舍与故障复盘，形成面试项目材料 |
+| 1 | feat/week-01-agent-runtime | 评估开源 Agent 内核的许可证、嵌入 API、DeepSeek、事件、会话及权限扩展；选定一个并完成 CLI 最小工具调用 |
+| 2 | feat/week-02-desktop-shell | 搭建 Electron + React，选择工作区并通过 IPC 展示模型回复与工具事件；renderer 不持有密钥 |
+| 3 | feat/week-03-streaming-tasks | 接入流式事件、任务状态机、取消与错误处理；同一会话请求排队 |
+| 4 | feat/week-04-sessions-memory | SQLite 会话恢复、上下文预算与隔离测试；保持工具调用和结果完整 |
+| 5 | feat/week-05-permissions-diff | 工具审批、文件 diff、冲突检测；拒绝审批不执行，明确 Bash 非沙箱的边界 |
+| 6 | feat/week-06-skills-evals | Skills 按需加载与固定任务集，记录成功率、耗时、调用次数与可用的 token 指标 |
+| 7 | feat/week-07-packaging | 安装包、配置引导、日志脱敏与集成测试；在新环境验证启动 |
+| 8 | 不单独建分支 | 5 分钟演示、架构说明、技术取舍与故障复盘，形成面试项目材料 |
 
 ## 分支约定
 
